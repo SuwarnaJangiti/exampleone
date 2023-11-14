@@ -23,7 +23,7 @@ public class TestClass {
 	driver=new ChromeDriver(options);
 //	driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
-	System.out.println("Title is: " +driver.getTitle());
+	//System.out.println("Title is: " +driver.getTitle());
 	driver.quit();
 	}
 	
