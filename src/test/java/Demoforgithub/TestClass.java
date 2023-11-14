@@ -16,7 +16,7 @@ public class TestClass {
 
 	@Test
 	public void verifyTitle() {
-	//WebDriverManager.chromedriver().setup();
+	
 	ChromeOptions options=new ChromeOptions();
 	options.addArguments("headless");
 	WebDriverManager.chromedriver().setup();
