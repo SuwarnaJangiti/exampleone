@@ -20,6 +20,7 @@ public class TestClass {
 	ChromeOptions options=new ChromeOptions();
 	options.setHeadless(true);
 	WebDriverManager.chromedriver().setup();
+	//System.setProperty("webdriver.chrome.driver","C:\\Users\\suwarna jangiti\\Downloads\\driver\\chromedriver-win64\\chromedriver.exe");
 	driver=new ChromeDriver(options);
 //	driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
