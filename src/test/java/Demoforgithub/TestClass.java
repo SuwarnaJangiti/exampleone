@@ -16,11 +16,11 @@ public class TestClass {
 
 	@Test
 	public void verifyTitle() {
-//	ChromeOptions options=new ChromeOptions();
-//	options.addArguments("headless");
+	ChromeOptions options=new ChromeOptions();
+	options.setHeadless(true);
 	WebDriverManager.chromedriver().setup();
-//	driver=new ChromeDriver(options);
-	driver=new ChromeDriver();
+	driver=new ChromeDriver(options);
+//	driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
 	System.out.println("Title is: " +driver.getTitle());
 	driver.quit();
