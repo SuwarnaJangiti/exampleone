@@ -17,16 +17,16 @@ public class TestClass {
 
 	@Test
 	public void verifyTitle() {
-		System.out.println("hello");
-//	ChromeOptions options=new ChromeOptions();
-//	options.setHeadless(true);
-//	WebDriverManager.chromedriver().setup();
-	//System.setProperty("webdriver.chrome.driver","C:\\Users\\suwarna jangiti\\Downloads\\driver\\chromedriver-win64\\chromedriver.exe");
-//	driver=new ChromeDriver(options);
-//	driver=new ChromeDriver();
-//	driver.get("https://www.google.com/");
-//	System.out.println("Title is: " +driver.getTitle());
-//	driver.quit();
+		// System.out.println("hello");
+	ChromeOptions options=new ChromeOptions();
+	options.setHeadless(true);
+	WebDriverManager.chromedriver().setup();
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\suwarna jangiti\\Downloads\\driver\\chromedriver-win64\\chromedriver.exe");
+	driver=new ChromeDriver(options);
+	driver=new ChromeDriver();
+	driver.get("https://www.google.com/");
+	System.out.println("Title is: " +driver.getTitle());
+	driver.quit();
 	}
 	
 
