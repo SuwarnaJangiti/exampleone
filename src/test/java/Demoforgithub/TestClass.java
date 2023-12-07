@@ -32,7 +32,7 @@ public class TestClass {
 
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("http://142.93.213.197");
-		System.out.println(driver.getTitle());
+		System.out.println("Actual Title : "+driver.getTitle());
 		driver.quit();
 	}
 	
